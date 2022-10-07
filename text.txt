@@ -1,0 +1,26 @@
+# Sample data
+
+
+# all_company = soup.find_all(name="h3", class_="joblist-comp-name")
+#
+# for company in all_company:
+#     print(company.get_text())
+
+###################
+
+# all_disc = soup.select(selector=".list-job-dtl li a")
+# for disc in all_disc:
+#     print(disc.get("href"))
+####################
+
+# all_skills = soup.select(".srp-skills")
+#
+# for skills in all_skills:
+#     print(skills.get_text().replace(" ", "").strip())
+
+#####################
+
+# all_status = soup.select(selector=".sim-posted span")
+#
+# for status in all_status:
+#     print(status.get_text().strip())
